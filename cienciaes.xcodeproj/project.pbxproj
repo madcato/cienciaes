@@ -21,6 +21,7 @@
 		108377C016636176006B86C6 /* cienciaes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 108377BE16636176006B86C6 /* cienciaes.xcdatamodeld */; };
 		108377C316636176006B86C6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 108377C216636176006B86C6 /* MainViewController.m */; };
 		108377C616636176006B86C6 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 108377C516636176006B86C6 /* FlipsideViewController.m */; };
+		108377D3166365B8006B86C6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108377D2166365B8006B86C6 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		108377C216636176006B86C6 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		108377C416636176006B86C6 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		108377C516636176006B86C6 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		108377D2166365B8006B86C6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108377D3166365B8006B86C6 /* AVFoundation.framework in Frameworks */,
 				108377A216636175006B86C6 /* UIKit.framework in Frameworks */,
 				108377A416636175006B86C6 /* Foundation.framework in Frameworks */,
 				108377A616636175006B86C6 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +84,7 @@
 		108377A016636175006B86C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				108377D2166365B8006B86C6 /* AVFoundation.framework */,
 				108377A116636175006B86C6 /* UIKit.framework */,
 				108377A316636175006B86C6 /* Foundation.framework */,
 				108377A516636175006B86C6 /* CoreGraphics.framework */,
@@ -219,6 +223,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -239,6 +247,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s armv6";
 			};
 			name = Debug;
 		};
@@ -246,6 +255,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -261,6 +274,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s armv6";
 			};
 			name = Release;
 		};
@@ -270,6 +284,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cienciaes/cienciaes-Prefix.pch";
 				INFOPLIST_FILE = "cienciaes/cienciaes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -281,6 +296,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cienciaes/cienciaes-Prefix.pch";
 				INFOPLIST_FILE = "cienciaes/cienciaes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
