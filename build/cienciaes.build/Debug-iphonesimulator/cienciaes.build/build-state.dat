@@ -1,447 +1,0 @@
-Tcienciaes
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/Info.plist cienciaes/cienciaes-Info.plist
-cDataModelVersionCompile /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/cienciaes.momd /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/cienciaes.xcdatamodeld
-cProcessPCH /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-egnlopcdymcsclepfloagmtvkfkm/cienciaes-Prefix.pch.pth cienciaes/cienciaes-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/MainViewController.o /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/main.o /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/FlipsideViewController.o /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/AppDelegate.o /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/cienciaes normal i386
-cGenerateDSYMFile /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app.dSYM /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/cienciaes
-cCopyStringsFile /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/en.lproj/InfoPlist.strings cienciaes/en.lproj/InfoPlist.strings
-cCpResource cienciaes/Default.png build/Debug-iphonesimulator/cienciaes.app/Default.png
-cCpResource cienciaes/Default@2x.png build/Debug-iphonesimulator/cienciaes.app/Default@2x.png
-cCpResource cienciaes/Default-568h@2x.png build/Debug-iphonesimulator/cienciaes.app/Default-568h@2x.png
-cCompileStoryboard /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/en.lproj/MainStoryboard.storyboard
-cTouch /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
-c00000000504916AD0000000000000110
-t1346967213
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c00000000504A975D00000000001EAFC0
-t1347065693
-s2011072
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
-c00000000504A975F0000000000000944
-t1347065695
-s2372
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c00000000504A9762000000000030BB10
-t1347065698
-s3193616
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
-c00000000504A9761000000000000053B
-t1347065697
-s1339
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000504A97620000000000228FD0
-t1347065698
-s2265040
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000504A977000000000003DCEF0
-t1347065712
-s4050672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c00000000504A977000000000000015F7
-t1347065712
-s5623
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.h
-c00000000504A978800000000000002C3
-t1347065736
-s707
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c00000000504A978900000000002C6C10
-t1347065737
-s2911248
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c00000000504A979B0000000000000E8D
-t1347065755
-s3725
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000504A979E0000000000AB3D60
-t1347065758
-s11222368
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/Availability.h
-c00000000504A983A0000000000001B54
-t1347065914
-s6996
-
-N/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app
-t1353924934
-s340
-
-N/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app.dSYM
-t1353924934
-s102
-
-N/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/Default-568h@2x.png
-t1353919525
-s18594
-
-N/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/Default.png
-t1353919525
-s6540
-
-N/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/Default@2x.png
-t1353919525
-s16107
-
-N/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/Info.plist
-t1353919522
-s951
-
-N/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/PkgInfo
-t1353919522
-s8
-
-N/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/cienciaes
-t1353924934
-s41476
-
-N/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/cienciaes.momd
-t1353919524
-s170
-
-N/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/en.lproj/InfoPlist.strings
-t1353919525
-s42
-
-N/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/en.lproj/MainStoryboard.storyboardc
-t1353920603
-s238
-
-N/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/AppDelegate.o
-t1353920320
-s103592
-
-N/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/FlipsideViewController.o
-t1353920096
-s73604
-
-N/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/MainViewController.o
-t1353924933
-s83156
-
-N/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/cienciaes.LinkFileList
-c0000000050B32C220000000000000227
-t1353919522
-s551
-
-N/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/main.o
-t1353920096
-s3308
-
-N/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/AppDelegate.h
-c0000000050B329F5000000000000025E
-t1353918965
-s606
-
-N/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/AppDelegate.m
-c0000000050B329F50000000000001AA1
-t1353918965
-s6817
-
-N/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/Default-568h@2x.png
-c0000000050262AB100000000000048A2
-t1344678577
-s18594
-
-N/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/Default.png
-c0000000050262AB1000000000000198C
-t1344678577
-s6540
-
-N/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/Default@2x.png
-c0000000050262AB10000000000003EEB
-t1344678577
-s16107
-
-N/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/FlipsideViewController.h
-c0000000050B329F600000000000001EB
-t1353918966
-s491
-
-N/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/FlipsideViewController.m
-c0000000050B329F600000000000002B2
-t1353918966
-s690
-
-N/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/MainViewController.h
-c0000000050B32F3E00000000000001F8
-t1353920318
-s504
-
-N/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/MainViewController.m
-c0000000050B341410000000000000545
-t1353924929
-s1349
-
-N/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/cienciaes-Prefix.pch
-c0000000050B32E46000000000000018D
-t1353920070
-s397
-i<Availability.h>
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-i<CoreData/CoreData.h>
-i<AVFoundation/AVFoundation.h>
-
-N/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/cienciaes.xcdatamodeld
-c0000000050B329F60000000000000088
-t1353918966
-s136
-
-N/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/en.lproj/InfoPlist.strings
-c0000000050B329F5000000000000002D
-t1353918965
-s45
-
-N/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/en.lproj/MainStoryboard.storyboard
-c0000000050B330560000000000002198
-t1353920598
-s8600
-
-N/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/main.m
-c0000000050B329F5000000000000014E
-t1353918965
-s334
-
-N/var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-cjbbjjafaquraghjvzjdvjketdoj/cienciaes-Prefix.pch.pth
-t1353919523
-s5066124
-
-N/var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-egnlopcdymcsclepfloagmtvkfkm/cienciaes-Prefix.pch.pth
-t1353920096
-s6649604
-
-N/var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-frcnazkyzwoqxgedohrumkwgejrx/cienciaes-Prefix.pch.pth
-t2
-s0
-
-N/var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-fwwfszxhndteufhdxfotyuqejryw/cienciaes-Prefix.pch.pth
-t2
-s0
-
-Ncienciaes/cienciaes-Info.plist
-c0000000050B329F50000000000000595
-t1353918965
-s1429
-
-CBuild AST from /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/AppDelegate.m
-r0
-
-CBuild AST from /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/FlipsideViewController.m
-r0
-
-CBuild AST from /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/MainViewController.m
-r0
-
-CBuild AST from /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesae9d3c2f7a63b641^dcf33c2f7a63b641^---0#1#0#--18"Check dependencies36"91BE8768-30A3-4C1B-BDC5-E1D5BD89DC76-
-
-CCompileC build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/AppDelegate.o /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s375613118.981546
-e375613120.503849
-r1
-xCompileC
-xbuild/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/AppDelegate.o
-x/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/AppDelegate.m8c68fbbe6663b641^0dfc80c06663b641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/AppDelegate.m0000000000000000^3603"CompileC build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/AppDelegate.o cienciaes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/InycomZamudio/Proyectos/cienciaes    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-generated-files.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-own-target-headers.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-all-target-headers.hmap -iquote /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-project-headers.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/DerivedSources/i386 -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/DerivedSources -F/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator -include /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-egnlopcdymcsclepfloagmtvkfkm/cienciaes-Prefix.pch -MMD -MT dependencies -MF /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/AppDelegate.dia -c /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/AppDelegate.m -o /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/AppDelegate.o36"268B41C8-D85C-471D-9122-FEE0D681C61E-
-
-CCompileC build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/FlipsideViewController.o /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s375612896.664670
-e375612896.935513
-r1
-xCompileC
-xbuild/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/FlipsideViewController.o
-x/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/FlipsideViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/FlipsideViewController.m7d59aae06563b641^207defe06563b641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/FlipsideViewController.m0000000000000000^3669"CompileC build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/FlipsideViewController.o cienciaes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/InycomZamudio/Proyectos/cienciaes    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-generated-files.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-own-target-headers.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-all-target-headers.hmap -iquote /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-project-headers.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/DerivedSources/i386 -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/DerivedSources -F/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator -include /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-egnlopcdymcsclepfloagmtvkfkm/cienciaes-Prefix.pch -MMD -MT dependencies -MF /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/FlipsideViewController.d --serialize-diagnostics /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/FlipsideViewController.dia -c /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/FlipsideViewController.m -o /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/FlipsideViewController.o36"2D84CF36-BB6C-43C6-8DC8-66BE55813F70-
-
-CCompileC build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/MainViewController.o /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s375617730.069604
-e375617733.771049
-r1
-xCompileC
-xbuild/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/MainViewController.o
-x/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/MainViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/MainViewController.m6af911c27863b641^ed63c5c57863b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/MainViewController.m0000000000000000^3645"CompileC build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/MainViewController.o cienciaes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/InycomZamudio/Proyectos/cienciaes    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-generated-files.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-own-target-headers.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-all-target-headers.hmap -iquote /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-project-headers.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/DerivedSources/i386 -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/DerivedSources -F/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator -include /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-egnlopcdymcsclepfloagmtvkfkm/cienciaes-Prefix.pch -MMD -MT dependencies -MF /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/MainViewController.dia -c /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/MainViewController.m -o /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/MainViewController.o36"DDEC9E3C-C51A-428E-802E-51C78F7A0C4A-
-
-CCompileC build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/main.o /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s375612896.664265
-e375612896.914498
-r1
-xCompileC
-xbuild/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/main.o
-x/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/main.m4a46aae06563b641^e963eae06563b641^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/main.m0000000000000000^3561"CompileC build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/main.o cienciaes/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/InycomZamudio/Proyectos/cienciaes    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-generated-files.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-own-target-headers.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-all-target-headers.hmap -iquote /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-project-headers.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/DerivedSources/i386 -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/DerivedSources -F/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator -include /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-egnlopcdymcsclepfloagmtvkfkm/cienciaes-Prefix.pch -MMD -MT dependencies -MF /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/main.dia -c /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/main.m -o /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/main.o36"81DB6AE1-D9EA-4251-A939-1B3BF3594521-
-
-CCompileStoryboard /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/en.lproj/MainStoryboard.storyboard
-s375613399.780824
-e375613403.844105
-r1
-xCompileStoryboard
-x/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/en.lproj/MainStoryboard.storyboard
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"CompileStoryboard cienciaes/en.lproj/MainStoryboard.storyboard49f7c7d76763b641^6e15d8db6763b641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/en.lproj/MainStoryboard.storyboard0000000000000000^956"CompileStoryboard cienciaes/en.lproj/MainStoryboard.storyboard    cd /Users/InycomZamudio/Proyectos/cienciaes    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/en.lproj/MainStoryboard.storyboardc /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"51660AFE-8A09-4439-93CF-DA322A8217AD-
-
-CCopyStringsFile /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/en.lproj/InfoPlist.strings cienciaes/en.lproj/InfoPlist.strings
-s375612325.001420
-e375612325.244424
-r1
-xCopyStringsFile
-x/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/en.lproj/InfoPlist.strings
-xcienciaes/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy cienciaes/en.lproj/InfoPlist.stringsd97c00a56363b641^9f933ea56363b641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/en.lproj/InfoPlist.strings0000000000000000^587"CopyStringsFile build/Debug-iphonesimulator/cienciaes.app/en.lproj/InfoPlist.strings cienciaes/en.lproj/InfoPlist.strings    cd /Users/InycomZamudio/Proyectos/cienciaes    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/en.lproj -- cienciaes/en.lproj/InfoPlist.strings36"46EF9EC3-6980-4A68-9A52-F7FF3040A4E5-
-
-CCpResource cienciaes/Default-568h@2x.png build/Debug-iphonesimulator/cienciaes.app/Default-568h@2x.png
-s375612325.067400
-e375612325.144562
-r1
-xCpResource
-xcienciaes/Default-568h@2x.png
-xbuild/Debug-iphonesimulator/cienciaes.app/Default-568h@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug-iphonesimulator/cienciaes.app/Default-568h@2x.pngc15211a56363b641^62693ca56363b641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/Default-568h@2x.png000000000080d041^618"CpResource "cienciaes/Default-568h@2x.png" "build/Debug-iphonesimulator/cienciaes.app/Default-568h@2x.png"    cd /Users/InycomZamudio/Proyectos/cienciaes    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/Default-568h@2x.png" /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app36"02A57E73-2330-439C-9DBB-63F90C46D475-
-
-CCpResource cienciaes/Default.png build/Debug-iphonesimulator/cienciaes.app/Default.png
-s375612325.001425
-e375612325.031504
-r1
-xCpResource
-xcienciaes/Default.png
-xbuild/Debug-iphonesimulator/cienciaes.app/Default.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphonesimulator/cienciaes.app/Default.png5c7600a56363b641^c90117a56363b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/Default.png000000000080d041^588"CpResource cienciaes/Default.png build/Debug-iphonesimulator/cienciaes.app/Default.png    cd /Users/InycomZamudio/Proyectos/cienciaes    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/Default.png /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app36"9E737D18-6211-47A2-AE0D-2F78A8657C5C-
-
-CCpResource cienciaes/Default@2x.png build/Debug-iphonesimulator/cienciaes.app/Default@2x.png
-s375612325.032811
-e375612325.053961
-r1
-xCpResource
-xcienciaes/Default@2x.png
-xbuild/Debug-iphonesimulator/cienciaes.app/Default@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/cienciaes.app/Default@2x.png187a08a56363b641^8a0417a56363b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/Default@2x.png000000000080d041^603"CpResource "cienciaes/Default@2x.png" "build/Debug-iphonesimulator/cienciaes.app/Default@2x.png"    cd /Users/InycomZamudio/Proyectos/cienciaes    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/Default@2x.png" /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app36"8536403C-397E-4BA0-9591-3FC4F0F1539F-
-
-CDataModelVersionCompile /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/cienciaes.momd /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/cienciaes.xcdatamodeld
-s375612322.397221
-e375612324.198473
-r1
-xDataModelVersionCompile
-x/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/cienciaes.momd
-x/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/cienciaes.xcdatamodeld
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"DataModelVersionCompile build/Debug-iphonesimulator/cienciaes.app/cienciaes.momd cienciaes/cienciaes.xcdatamodeldc1ca65a26363b641^28d132a46363b641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/cienciaes.xcdatamodeld/0000000000000000^885"DataModelVersionCompile build/Debug-iphonesimulator/cienciaes.app/cienciaes.momd cienciaes/cienciaes.xcdatamodeld    cd /Users/InycomZamudio/Proyectos/cienciaes    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -XD_MOMC_IOS_TARGET_VERSION=5.0 -MOMC_PLATFORMS iphonesimulator -MOMC_PLATFORMS iphoneos -XD_MOMC_TARGET_VERSION=10.6 /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/cienciaes.xcdatamodeld /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/cienciaes.momd36"541B57AD-EC7E-4348-B369-4F7A8B5EE53F-
-
-CGenerateDSYMFile /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app.dSYM /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/cienciaes
-s375617734.625370
-e375617734.715540
-r1
-xGenerateDSYMFile
-x/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app.dSYM
-x/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/cienciaes
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Generating /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app.dSYM8d29a0c67863b641^cf2eb7c67863b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app.dSYM/0000000000000000^643"GenerateDSYMFile build/Debug-iphonesimulator/cienciaes.app.dSYM build/Debug-iphonesimulator/cienciaes.app/cienciaes    cd /Users/InycomZamudio/Proyectos/cienciaes    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/cienciaes -o /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app.dSYM36"2A170AE7-C7A7-40F9-924C-870A19C773E4-
-
-CLd /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/cienciaes normal i386
-s375617733.777948
-e375617734.618333
-r1
-xLd
-x/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/cienciaes
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Link /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/cienciaesf339c7c57863b641^024b9ec67863b641^---0#0#0#--1215"Ld build/Debug-iphonesimulator/cienciaes.app/cienciaes normal i386    cd /Users/InycomZamudio/Proyectos/cienciaes    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator -F/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator -filelist /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/Objects-normal/i386/cienciaes.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AVFoundation -framework UIKit -framework Foundation -framework CoreGraphics -framework CoreData -o /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/cienciaes36"10231179-D7AE-49F8-AA47-D4588E5F0A41-
-
-CProcessInfoPlistFile /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/Info.plist cienciaes/cienciaes-Info.plist
-s375612322.342050
-e375612322.370783
-r1
-xProcessInfoPlistFile
-x/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/Info.plist
-xcienciaes/cienciaes-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process cienciaes/cienciaes-Info.plistc2a157a26363b641^683c69a26363b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/cienciaes-Info.plist0000000000000000^670"ProcessInfoPlistFile build/Debug-iphonesimulator/cienciaes.app/Info.plist cienciaes/cienciaes-Info.plist    cd /Users/InycomZamudio/Proyectos/cienciaes    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility cienciaes/cienciaes-Info.plist -genpkginfo /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app/Info.plist36"B22031FB-0872-4695-9D93-6459C1A88711-
-
-CProcessPCH /Users/InycomZamudio/Library/Developer/Xcode/DerivedData/cienciaes-bbfxyhqkhqknvcfomghqxucxlfuo/Index/PrecompiledHeaders/cienciaes-Prefix-dblestbzzksaqceofqokmeenxxbp_ast/cienciaes-Prefix.pch.pth cienciaes/cienciaes-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/InycomZamudio/Library/Developer/Xcode/DerivedData/cienciaes-bbfxyhqkhqknvcfomghqxucxlfuo/Index/PrecompiledHeaders/cienciaes-Prefix-dtbjaczkcqibfyeinftkckjctpzs_ast/cienciaes-Prefix.pch.pth cienciaes/cienciaes-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/InycomZamudio/Library/Developer/Xcode/DerivedData/cienciaes-bbfxyhqkhqknvcfomghqxucxlfuo/Index/PrecompiledHeaders/cienciaes-Prefix-dxssjhkkmzeshrezvcrqsuwouxag_ast/cienciaes-Prefix.pch.pth cienciaes/cienciaes-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/InycomZamudio/Library/Developer/Xcode/DerivedData/cienciaes-bbfxyhqkhqknvcfomghqxucxlfuo/Index/PrecompiledHeaders/cienciaes-Prefix-fmramaqlgkqmeyemoehcxnoctyfy_ast/cienciaes-Prefix.pch.pth cienciaes/cienciaes-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-cjbbjjafaquraghjvzjdvjketdoj/cienciaes-Prefix.pch.pth cienciaes/cienciaes-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s375612322.397067
-e375612323.977324
-r1
-xProcessPCH
-x/var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-cjbbjjafaquraghjvzjdvjketdoj/cienciaes-Prefix.pch.pth
-xcienciaes/cienciaes-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile cienciaes/cienciaes-Prefix.pch8cd665a26363b641^4031faa36363b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/cienciaes-Prefix.pch0000000000000000^3613"ProcessPCH /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-cjbbjjafaquraghjvzjdvjketdoj/cienciaes-Prefix.pch.pth cienciaes/cienciaes-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/InycomZamudio/Proyectos/cienciaes    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-generated-files.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-own-target-headers.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-all-target-headers.hmap -iquote /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-project-headers.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/DerivedSources/i386 -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/DerivedSources -F/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-cjbbjjafaquraghjvzjdvjketdoj/cienciaes-Prefix.pch.dia -c /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/cienciaes-Prefix.pch -o /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-cjbbjjafaquraghjvzjdvjketdoj/cienciaes-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-cjbbjjafaquraghjvzjdvjketdoj/cienciaes-Prefix.pch.d36"BC4DF079-B9D3-442A-B662-91E3BF9FFF99-
-
-CProcessPCH /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-egnlopcdymcsclepfloagmtvkfkm/cienciaes-Prefix.pch.pth cienciaes/cienciaes-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s375612895.809998
-e375612896.657205
-r1
-xProcessPCH
-x/var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-egnlopcdymcsclepfloagmtvkfkm/cienciaes-Prefix.pch.pth
-xcienciaes/cienciaes-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile cienciaes/cienciaes-Prefix.pch7d92cfdf6563b641^d93ea8e06563b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/InycomZamudio/Proyectos/cienciaes/cienciaes/cienciaes-Prefix.pch0000000000000000^3613"ProcessPCH /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-egnlopcdymcsclepfloagmtvkfkm/cienciaes-Prefix.pch.pth cienciaes/cienciaes-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/InycomZamudio/Proyectos/cienciaes    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.0 -iquote /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-generated-files.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-own-target-headers.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-all-target-headers.hmap -iquote /Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/cienciaes-project-headers.hmap -I/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/DerivedSources/i386 -I/Users/InycomZamudio/Proyectos/cienciaes/build/cienciaes.build/Debug-iphonesimulator/cienciaes.build/DerivedSources -F/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-egnlopcdymcsclepfloagmtvkfkm/cienciaes-Prefix.pch.dia -c /Users/InycomZamudio/Proyectos/cienciaes/cienciaes/cienciaes-Prefix.pch -o /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-egnlopcdymcsclepfloagmtvkfkm/cienciaes-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-egnlopcdymcsclepfloagmtvkfkm/cienciaes-Prefix.pch.d36"1B3B5B09-09BC-4CBF-BA3B-8B71BD04679C-
-
-CProcessPCH /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-frcnazkyzwoqxgedohrumkwgejrx/cienciaes-Prefix.pch.pth cienciaes/cienciaes-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /var/folders/ff/sxrsjs6n1p1_s38nz8n1vt_h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cienciaes-Prefix-fwwfszxhndteufhdxfotyuqejryw/cienciaes-Prefix.pch.pth cienciaes/cienciaes-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CTouch /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app
-s375617734.732569
-e375617734.786511
-r1
-xTouch
-x/Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Touch /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app0f98bbc67863b641^a75cc9c67863b641^---0#0#0#--396"Touch build/Debug-iphonesimulator/cienciaes.app    cd /Users/InycomZamudio/Proyectos/cienciaes    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/InycomZamudio/Proyectos/cienciaes/build/Debug-iphonesimulator/cienciaes.app36"F14D3A50-DF04-48B0-BC40-E8F957D95867-
-
