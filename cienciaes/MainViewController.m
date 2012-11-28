@@ -24,6 +24,11 @@
     
     if(error) NSLog(@"URL Error: %@",[error description]);
     [audioPlayer prepareToPlay];*/
+    
+    
+    MPVolumeView *myVolumeView =
+    [[MPVolumeView alloc] initWithFrame: _volumeParentView.bounds];
+    [_volumeParentView addSubview: myVolumeView];
 }
 
 - (void)didReceiveMemoryWarning
@@ -48,6 +53,7 @@
 
 - (void)viewDidUnload {
     [self setPlayButton:nil];
+    [self setVolumeParentView:nil];
     [super viewDidUnload];
 }
 

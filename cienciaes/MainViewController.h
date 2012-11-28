@@ -21,4 +21,5 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *playButton;
 - (IBAction)playPressed:(id)sender;
+@property (weak, nonatomic) IBOutlet UIView *volumeParentView;
 @end
