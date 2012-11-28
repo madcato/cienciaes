@@ -22,6 +22,17 @@
 		108377C316636176006B86C6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 108377C216636176006B86C6 /* MainViewController.m */; };
 		108377C616636176006B86C6 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 108377C516636176006B86C6 /* FlipsideViewController.m */; };
 		108377D3166365B8006B86C6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108377D2166365B8006B86C6 /* AVFoundation.framework */; };
+		10B178611665F70900CA725D /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B1785C1665F70900CA725D /* fondo.png */; };
+		10B178621665F70900CA725D /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B1785D1665F70900CA725D /* info.png */; };
+		10B178631665F70900CA725D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B1785E1665F70900CA725D /* logo.png */; };
+		10B178641665F70900CA725D /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B1785F1665F70900CA725D /* pause.png */; };
+		10B178651665F70900CA725D /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B178601665F70900CA725D /* Play.png */; };
+		10C1FF5616639B4B0030DE60 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C1FF5116639B4B0030DE60 /* AudioStreamer.m */; };
+		10C1FF5816639B4B0030DE60 /* iPhoneStreamingPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C1FF5516639B4B0030DE60 /* iPhoneStreamingPlayerViewController.m */; };
+		10CCF2C516639DAE00E629C2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CCF2C416639DAE00E629C2 /* AudioToolbox.framework */; };
+		10CCF2C816639DC000E629C2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CCF2C716639DC000E629C2 /* CFNetwork.framework */; };
+		10CCF2CA16639DDD00E629C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CCF2C916639DDD00E629C2 /* QuartzCore.framework */; };
+		10CCF2CC16639DEE00E629C2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CCF2CB16639DEE00E629C2 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +57,19 @@
 		108377C416636176006B86C6 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		108377C516636176006B86C6 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		108377D2166365B8006B86C6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		10B1785C1665F70900CA725D /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
+		10B1785D1665F70900CA725D /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		10B1785E1665F70900CA725D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		10B1785F1665F70900CA725D /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		10B178601665F70900CA725D /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		10C1FF5016639B4B0030DE60 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		10C1FF5116639B4B0030DE60 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		10C1FF5416639B4B0030DE60 /* iPhoneStreamingPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneStreamingPlayerViewController.h; sourceTree = "<group>"; };
+		10C1FF5516639B4B0030DE60 /* iPhoneStreamingPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneStreamingPlayerViewController.m; sourceTree = "<group>"; };
+		10CCF2C416639DAE00E629C2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		10CCF2C716639DC000E629C2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		10CCF2C916639DDD00E629C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		10CCF2CB16639DEE00E629C2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +77,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10CCF2CC16639DEE00E629C2 /* MediaPlayer.framework in Frameworks */,
+				10CCF2CA16639DDD00E629C2 /* QuartzCore.framework in Frameworks */,
+				10CCF2C816639DC000E629C2 /* CFNetwork.framework in Frameworks */,
+				10CCF2C516639DAE00E629C2 /* AudioToolbox.framework in Frameworks */,
 				108377D3166365B8006B86C6 /* AVFoundation.framework in Frameworks */,
 				108377A216636175006B86C6 /* UIKit.framework in Frameworks */,
 				108377A416636175006B86C6 /* Foundation.framework in Frameworks */,
@@ -84,6 +112,10 @@
 		108377A016636175006B86C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				10CCF2CB16639DEE00E629C2 /* MediaPlayer.framework */,
+				10CCF2C916639DDD00E629C2 /* QuartzCore.framework */,
+				10CCF2C716639DC000E629C2 /* CFNetwork.framework */,
+				10CCF2C416639DAE00E629C2 /* AudioToolbox.framework */,
 				108377D2166365B8006B86C6 /* AVFoundation.framework */,
 				108377A116636175006B86C6 /* UIKit.framework */,
 				108377A316636175006B86C6 /* Foundation.framework */,
@@ -96,6 +128,8 @@
 		108377A916636175006B86C6 /* cienciaes */ = {
 			isa = PBXGroup;
 			children = (
+				10B1785A1665F6F300CA725D /* images */,
+				10C1FF4E16639B290030DE60 /* Streamer */,
 				108377B216636175006B86C6 /* AppDelegate.h */,
 				108377B316636175006B86C6 /* AppDelegate.m */,
 				108377BB16636175006B86C6 /* MainStoryboard.storyboard */,
@@ -121,6 +155,29 @@
 				108377B916636175006B86C6 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10B1785A1665F6F300CA725D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				10B1785C1665F70900CA725D /* fondo.png */,
+				10B1785D1665F70900CA725D /* info.png */,
+				10B1785E1665F70900CA725D /* logo.png */,
+				10B1785F1665F70900CA725D /* pause.png */,
+				10B178601665F70900CA725D /* Play.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		10C1FF4E16639B290030DE60 /* Streamer */ = {
+			isa = PBXGroup;
+			children = (
+				10C1FF5016639B4B0030DE60 /* AudioStreamer.h */,
+				10C1FF5116639B4B0030DE60 /* AudioStreamer.m */,
+				10C1FF5416639B4B0030DE60 /* iPhoneStreamingPlayerViewController.h */,
+				10C1FF5516639B4B0030DE60 /* iPhoneStreamingPlayerViewController.m */,
+			);
+			name = Streamer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +236,11 @@
 				108377B816636175006B86C6 /* Default@2x.png in Resources */,
 				108377BA16636175006B86C6 /* Default-568h@2x.png in Resources */,
 				108377BD16636175006B86C6 /* MainStoryboard.storyboard in Resources */,
+				10B178611665F70900CA725D /* fondo.png in Resources */,
+				10B178621665F70900CA725D /* info.png in Resources */,
+				10B178631665F70900CA725D /* logo.png in Resources */,
+				10B178641665F70900CA725D /* pause.png in Resources */,
+				10B178651665F70900CA725D /* Play.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +256,8 @@
 				108377C016636176006B86C6 /* cienciaes.xcdatamodeld in Sources */,
 				108377C316636176006B86C6 /* MainViewController.m in Sources */,
 				108377C616636176006B86C6 /* FlipsideViewController.m in Sources */,
+				10C1FF5616639B4B0030DE60 /* AudioStreamer.m in Sources */,
+				10C1FF5816639B4B0030DE60 /* iPhoneStreamingPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +385,7 @@
 				108377CB16636176006B86C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -7,11 +7,14 @@
 //
 
 #import "FlipsideViewController.h"
-
 #import <CoreData/CoreData.h>
+
+@class AudioStreamer;
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
     AVAudioPlayer* audioPlayer;
+    
+    AudioStreamer *streamer;
 }
 
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
