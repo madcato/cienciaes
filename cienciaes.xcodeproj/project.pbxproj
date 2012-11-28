@@ -16,7 +16,6 @@
 		103D403D16661BD300A83155 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 103D403316661BD300A83155 /* pause.png */; };
 		103D403E16661BD300A83155 /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 103D403416661BD300A83155 /* pause@2x.png */; };
 		103D403F16661BD300A83155 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 103D403516661BD300A83155 /* play.png */; };
-		103D404016661BD300A83155 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 103D403616661BD300A83155 /* play@2x.png */; };
 		108377A216636175006B86C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108377A116636175006B86C6 /* UIKit.framework */; };
 		108377A416636175006B86C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108377A316636175006B86C6 /* Foundation.framework */; };
 		108377A616636175006B86C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108377A516636175006B86C6 /* CoreGraphics.framework */; };
@@ -50,7 +49,6 @@
 		103D403316661BD300A83155 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
 		103D403416661BD300A83155 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
 		103D403516661BD300A83155 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
-		103D403616661BD300A83155 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
 		1083779D16636175006B86C6 /* cienciaes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cienciaes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		108377A116636175006B86C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		108377A316636175006B86C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -179,7 +177,6 @@
 				103D403316661BD300A83155 /* pause.png */,
 				103D403416661BD300A83155 /* pause@2x.png */,
 				103D403516661BD300A83155 /* play.png */,
-				103D403616661BD300A83155 /* play@2x.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -260,7 +257,6 @@
 				103D403D16661BD300A83155 /* pause.png in Resources */,
 				103D403E16661BD300A83155 /* pause@2x.png in Resources */,
 				103D403F16661BD300A83155 /* play.png in Resources */,
-				103D404016661BD300A83155 /* play@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,11 +361,13 @@
 		108377CA16636176006B86C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cienciaes/cienciaes-Prefix.pch";
 				INFOPLIST_FILE = "cienciaes/cienciaes-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -377,11 +375,13 @@
 		108377CB16636176006B86C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cienciaes/cienciaes-Prefix.pch";
 				INFOPLIST_FILE = "cienciaes/cienciaes-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
