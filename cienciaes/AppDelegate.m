@@ -21,6 +21,15 @@
     // Override point for customization after application launch.
     MainViewController *controller = (MainViewController *)self.window.rootViewController;
     controller.managedObjectContext = self.managedObjectContext;
+    
+    
+    
+        // Registers this class as the delegate of the audio session.
+    [[AVAudioSession sharedInstance] setDelegate: self];
+        // Allow the app sound to continue to play when the screen is locked.
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
+    
+    
     return YES;
 }
 							
@@ -44,6 +53,8 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    MainViewController *controller = (MainViewController *)self.window.rootViewController;
+    [controller appBecomeActive];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

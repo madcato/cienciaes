@@ -9,17 +9,19 @@
 #import "FlipsideViewController.h"
 #import <CoreData/CoreData.h>
 
-@class AudioStreamer;
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
-    AVAudioPlayer* audioPlayer;
-    
-    AudioStreamer *streamer;
+    AVPlayer* audioPlayer;
+
 }
 
-@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+-(void)checkState;
+-(void)appBecomeActive;
 
-@property (weak, nonatomic) IBOutlet UIButton *playButton;
+@property (retain, nonatomic) NSManagedObjectContext *managedObjectContext;
+
+@property (retain, nonatomic) IBOutlet UIButton *playButton;
 - (IBAction)playPressed:(id)sender;
-@property (weak, nonatomic) IBOutlet UIView *volumeParentView;
+@property (retain, nonatomic) IBOutlet UIView *volumeParentView;
+@property (retain, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 @end

@@ -31,12 +31,20 @@
 		108377C316636176006B86C6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 108377C216636176006B86C6 /* MainViewController.m */; };
 		108377C616636176006B86C6 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 108377C516636176006B86C6 /* FlipsideViewController.m */; };
 		108377D3166365B8006B86C6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108377D2166365B8006B86C6 /* AVFoundation.framework */; };
-		10C1FF5616639B4B0030DE60 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C1FF5116639B4B0030DE60 /* AudioStreamer.m */; };
-		10C1FF5816639B4B0030DE60 /* iPhoneStreamingPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C1FF5516639B4B0030DE60 /* iPhoneStreamingPlayerViewController.m */; };
 		10CCF2C516639DAE00E629C2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CCF2C416639DAE00E629C2 /* AudioToolbox.framework */; };
 		10CCF2C816639DC000E629C2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CCF2C716639DC000E629C2 /* CFNetwork.framework */; };
 		10CCF2CA16639DDD00E629C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CCF2C916639DDD00E629C2 /* QuartzCore.framework */; };
 		10CCF2CC16639DEE00E629C2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CCF2CB16639DEE00E629C2 /* MediaPlayer.framework */; };
+		10E1BBEB166641500084F9EA /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E1BBE5166641500084F9EA /* Icon-Small.png */; };
+		10E1BBEC166641500084F9EA /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E1BBE6166641500084F9EA /* Icon-Small@2x.png */; };
+		10E1BBED166641500084F9EA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E1BBE7166641500084F9EA /* Icon.png */; };
+		10E1BBEE166641500084F9EA /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E1BBE8166641500084F9EA /* Icon@2x.png */; };
+		10E1BBEF166641500084F9EA /* iTunesArtwork512 in Resources */ = {isa = PBXBuildFile; fileRef = 10E1BBE9166641500084F9EA /* iTunesArtwork512 */; };
+		10E1BBF0166641500084F9EA /* iTunesArtwork1024 in Resources */ = {isa = PBXBuildFile; fileRef = 10E1BBEA166641500084F9EA /* iTunesArtwork1024 */; };
+		10E1BBF716665AEA0084F9EA /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E1BBF616665AEA0084F9EA /* play@2x.png */; };
+		10E1BBFD16665BDD0084F9EA /* pause_high.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E1BBF916665BDD0084F9EA /* pause_high.png */; };
+		10E1BBFE16665BDD0084F9EA /* pause_high@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E1BBFA16665BDD0084F9EA /* pause_high@2x.png */; };
+		10E1BC0016665BDD0084F9EA /* play_high@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E1BBFC16665BDD0084F9EA /* play_high@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,14 +78,20 @@
 		108377C416636176006B86C6 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		108377C516636176006B86C6 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		108377D2166365B8006B86C6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		10C1FF5016639B4B0030DE60 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
-		10C1FF5116639B4B0030DE60 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
-		10C1FF5416639B4B0030DE60 /* iPhoneStreamingPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneStreamingPlayerViewController.h; sourceTree = "<group>"; };
-		10C1FF5516639B4B0030DE60 /* iPhoneStreamingPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneStreamingPlayerViewController.m; sourceTree = "<group>"; };
 		10CCF2C416639DAE00E629C2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		10CCF2C716639DC000E629C2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		10CCF2C916639DDD00E629C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		10CCF2CB16639DEE00E629C2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		10E1BBE5166641500084F9EA /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		10E1BBE6166641500084F9EA /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		10E1BBE7166641500084F9EA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		10E1BBE8166641500084F9EA /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		10E1BBE9166641500084F9EA /* iTunesArtwork512 */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork512; sourceTree = "<group>"; };
+		10E1BBEA166641500084F9EA /* iTunesArtwork1024 */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork1024; sourceTree = "<group>"; };
+		10E1BBF616665AEA0084F9EA /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		10E1BBF916665BDD0084F9EA /* pause_high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_high.png; sourceTree = "<group>"; };
+		10E1BBFA16665BDD0084F9EA /* pause_high@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause_high@2x.png"; sourceTree = "<group>"; };
+		10E1BBFC16665BDD0084F9EA /* play_high@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_high@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +150,7 @@
 		108377A916636175006B86C6 /* cienciaes */ = {
 			isa = PBXGroup;
 			children = (
+				10E1BBE4166641460084F9EA /* icons */,
 				10B1785A1665F6F300CA725D /* images */,
 				10C1FF4E16639B290030DE60 /* Streamer */,
 				108377B216636175006B86C6 /* AppDelegate.h */,
@@ -177,6 +192,10 @@
 				103D403316661BD300A83155 /* pause.png */,
 				103D403416661BD300A83155 /* pause@2x.png */,
 				103D403516661BD300A83155 /* play.png */,
+				10E1BBF616665AEA0084F9EA /* play@2x.png */,
+				10E1BBF916665BDD0084F9EA /* pause_high.png */,
+				10E1BBFA16665BDD0084F9EA /* pause_high@2x.png */,
+				10E1BBFC16665BDD0084F9EA /* play_high@2x.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -184,12 +203,21 @@
 		10C1FF4E16639B290030DE60 /* Streamer */ = {
 			isa = PBXGroup;
 			children = (
-				10C1FF5016639B4B0030DE60 /* AudioStreamer.h */,
-				10C1FF5116639B4B0030DE60 /* AudioStreamer.m */,
-				10C1FF5416639B4B0030DE60 /* iPhoneStreamingPlayerViewController.h */,
-				10C1FF5516639B4B0030DE60 /* iPhoneStreamingPlayerViewController.m */,
 			);
 			name = Streamer;
+			sourceTree = "<group>";
+		};
+		10E1BBE4166641460084F9EA /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				10E1BBE5166641500084F9EA /* Icon-Small.png */,
+				10E1BBE6166641500084F9EA /* Icon-Small@2x.png */,
+				10E1BBE7166641500084F9EA /* Icon.png */,
+				10E1BBE8166641500084F9EA /* Icon@2x.png */,
+				10E1BBE9166641500084F9EA /* iTunesArtwork512 */,
+				10E1BBEA166641500084F9EA /* iTunesArtwork1024 */,
+			);
+			name = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +285,16 @@
 				103D403D16661BD300A83155 /* pause.png in Resources */,
 				103D403E16661BD300A83155 /* pause@2x.png in Resources */,
 				103D403F16661BD300A83155 /* play.png in Resources */,
+				10E1BBEB166641500084F9EA /* Icon-Small.png in Resources */,
+				10E1BBEC166641500084F9EA /* Icon-Small@2x.png in Resources */,
+				10E1BBED166641500084F9EA /* Icon.png in Resources */,
+				10E1BBEE166641500084F9EA /* Icon@2x.png in Resources */,
+				10E1BBEF166641500084F9EA /* iTunesArtwork512 in Resources */,
+				10E1BBF0166641500084F9EA /* iTunesArtwork1024 in Resources */,
+				10E1BBF716665AEA0084F9EA /* play@2x.png in Resources */,
+				10E1BBFD16665BDD0084F9EA /* pause_high.png in Resources */,
+				10E1BBFE16665BDD0084F9EA /* pause_high@2x.png in Resources */,
+				10E1BC0016665BDD0084F9EA /* play_high@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +310,6 @@
 				108377C016636176006B86C6 /* cienciaes.xcdatamodeld in Sources */,
 				108377C316636176006B86C6 /* MainViewController.m in Sources */,
 				108377C616636176006B86C6 /* FlipsideViewController.m in Sources */,
-				10C1FF5616639B4B0030DE60 /* AudioStreamer.m in Sources */,
-				10C1FF5816639B4B0030DE60 /* iPhoneStreamingPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +347,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -343,6 +380,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -362,6 +400,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cienciaes/cienciaes-Prefix.pch";
 				INFOPLIST_FILE = "cienciaes/cienciaes-Info.plist";
@@ -376,6 +416,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cienciaes/cienciaes-Prefix.pch";
 				INFOPLIST_FILE = "cienciaes/cienciaes-Info.plist";
