@@ -29,6 +29,9 @@
     MPVolumeView *myVolumeView =
     [[MPVolumeView alloc] initWithFrame: _volumeParentView.bounds];
     [_volumeParentView addSubview: myVolumeView];
+    
+    [[UISlider appearance] setMinimumTrackTintColor:[UIColor blackColor]];
+    [[UISlider appearance] setMaximumTrackTintColor:[UIColor darkGrayColor]];
 }
 
 - (void)didReceiveMemoryWarning
