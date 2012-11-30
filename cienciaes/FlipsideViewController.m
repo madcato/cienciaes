@@ -38,4 +38,22 @@
     [self.delegate flipsideViewControllerDidFinish:self];
 }
 
+- (IBAction)joseMailPressed:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto:radio@cienciaes.com"]];
+}
+
+- (IBAction)daniMailPressed:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto:daniel@veladan.com"]];
+}
+
+- (void)viewDidUnload {
+    [super viewDidUnload];
+}
+- (IBAction)infoMailPressed:(id)sender {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto:oyentes@cienciaes.com"]];
+}
+
+- (IBAction)urlPressed:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.cienciaes.com"]];
+}
 @end

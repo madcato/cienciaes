@@ -20,4 +20,8 @@
 
 - (IBAction)done:(id)sender;
 
+- (IBAction)joseMailPressed:(id)sender;
+- (IBAction)daniMailPressed:(id)sender;
+- (IBAction)infoMailPressed:(id)sender;
+- (IBAction)urlPressed:(id)sender;
 @end
