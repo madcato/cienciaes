@@ -247,7 +247,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
-				ORGANIZATIONNAME = inycom;
+				ORGANIZATIONNAME = veladan;
 			};
 			buildConfigurationList = 1083779716636175006B86C6 /* Build configuration list for PBXProject "cienciaes" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -418,11 +418,13 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daniel Vela";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cienciaes/cienciaes-Prefix.pch";
 				INFOPLIST_FILE = "cienciaes/cienciaes-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F554AF97-8B3B-4FF7-A588-8ABE65FBB878";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
