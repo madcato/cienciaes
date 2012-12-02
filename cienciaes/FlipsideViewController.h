@@ -24,4 +24,9 @@
 - (IBAction)daniMailPressed:(id)sender;
 - (IBAction)infoMailPressed:(id)sender;
 - (IBAction)urlPressed:(id)sender;
+- (IBAction)radioPressed:(id)sender;
+- (IBAction)cianciaesPRessed:(id)sender;
+- (IBAction)josePressed:(id)sender;
+- (IBAction)madcatoPressed:(id)sender;
+
 @end

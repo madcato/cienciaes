@@ -56,4 +56,21 @@
 - (IBAction)urlPressed:(id)sender {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.cienciaes.com"]];
 }
+
+- (IBAction)radioPressed:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://twitter.com/radiocienciaes"]];
+}
+
+- (IBAction)cianciaesPRessed:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://twitter.com/cienciaes"]];
+}
+
+- (IBAction)josePressed:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://twitter.com/josejuansaga"]];
+}
+
+- (IBAction)madcatoPressed:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://twitter.com/madcato"]];
+}
+
 @end

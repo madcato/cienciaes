@@ -94,7 +94,7 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="i4v-Vk-WxG">
-                                <rect key="frame" x="20" y="46" width="280" height="180"/>
+                                <rect key="frame" x="20" y="29" width="280" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <string key="text">Radio Cienciaes te permitirá escuchar, de manera ininterrumpida los mejores podcast de divulgación científica creados en español. Conéctate y disfruta de los todos los podcast de Cienciaes, ciencia para escuchar y otros programas de divulgación científica.
 </string>
@@ -104,14 +104,14 @@
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Dirección de Radio:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ME4-2O-Xqg">
-                                <rect key="frame" x="20" y="237" width="280" height="21"/>
+                                <rect key="frame" x="20" y="231" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="José Juan Sánchez" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ozy-uz-Igc">
-                                <rect key="frame" x="20" y="256" width="155" height="22"/>
+                                <rect key="frame" x="20" y="250" width="155" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -119,7 +119,7 @@
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="OZq-tt-v0E">
-                                <rect key="frame" x="169" y="247" width="147" height="44"/>
+                                <rect key="frame" x="169" y="241" width="147" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
                                 <state key="normal" title="radio@cienciaes.com">
@@ -131,14 +131,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Información de los podcast:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3O8-b3-2EQ">
-                                <rect key="frame" x="22" y="335" width="280" height="21"/>
+                                <rect key="frame" x="22" y="371" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="l7h-Qd-22B">
-                                <rect key="frame" x="160" y="343" width="147" height="44"/>
+                                <rect key="frame" x="160" y="379" width="147" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
                                 <state key="normal" title="oyentes@cienciaes.com">
@@ -150,14 +150,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Desarrollo App:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mpC-Q6-k4L">
-                                <rect key="frame" x="20" y="286" width="280" height="21"/>
+                                <rect key="frame" x="20" y="298" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Daniel Vela" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gD5-ep-bkL">
-                                <rect key="frame" x="20" y="305" width="155" height="22"/>
+                                <rect key="frame" x="20" y="317" width="155" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -165,7 +165,7 @@
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="S06-YL-eW6">
-                                <rect key="frame" x="171" y="297" width="147" height="44"/>
+                                <rect key="frame" x="171" y="309" width="147" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
                                 <state key="normal" title="daniel@veladan.com">
@@ -177,7 +177,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="kaz-Gf-jE4">
-                                <rect key="frame" x="87" y="394" width="147" height="44"/>
+                                <rect key="frame" x="87" y="416" width="147" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
                                 <state key="normal" title="http://www.cienciaes.com">
@@ -186,6 +186,54 @@
                                 </state>
                                 <connections>
                                     <action selector="urlPressed:" destination="6" eventType="touchUpInside" id="zOk-wV-V9S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="yVr-Jm-Yz2">
+                                <rect key="frame" x="20" y="179" width="131" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                                <state key="normal" title="@radiocienciaes">
+                                    <color key="titleColor" red="0.062561304250000005" green="0.56677430880000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="radioPressed:" destination="6" eventType="touchUpInside" id="nPO-Cz-pXE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="7zj-Rw-KTc">
+                                <rect key="frame" x="153" y="179" width="147" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                                <state key="normal" title="@cienciaes">
+                                    <color key="titleColor" red="0.062561304250000005" green="0.56677430880000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cianciaesPRessed:" destination="6" eventType="touchUpInside" id="xIA-Q3-PXy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="WxA-NW-Mfi">
+                                <rect key="frame" x="-1" y="260" width="131" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                                <state key="normal" title="@josejuansaga">
+                                    <color key="titleColor" red="0.062561304250000005" green="0.56677430880000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="josePressed:" destination="6" eventType="touchUpInside" id="Ha8-th-6YZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="OUm-2Y-UfZ">
+                                <rect key="frame" x="-1" y="327" width="108" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="12"/>
+                                <state key="normal" title="@madcato">
+                                    <color key="titleColor" red="0.062561304250000005" green="0.56677430880000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="madcatoPressed:" destination="6" eventType="touchUpInside" id="ivB-BB-DmW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -207,10 +255,14 @@
         <class className="FlipsideViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FlipsideViewController.h"/>
             <relationships>
+                <relationship kind="action" name="cianciaesPRessed:"/>
                 <relationship kind="action" name="daniMailPressed:"/>
                 <relationship kind="action" name="done:"/>
                 <relationship kind="action" name="infoMailPressed:"/>
                 <relationship kind="action" name="joseMailPressed:"/>
+                <relationship kind="action" name="josePressed:"/>
+                <relationship kind="action" name="madcatoPressed:"/>
+                <relationship kind="action" name="radioPressed:"/>
                 <relationship kind="action" name="urlPressed:"/>
             </relationships>
         </class>
