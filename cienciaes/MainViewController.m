@@ -38,7 +38,7 @@
     if(audioPlayer) {
         [audioPlayer removeObserver:self forKeyPath:@"status"];
     }
-    audioPlayer = [AVPlayer playerWithURL:[NSURL URLWithString:@"http://38.96.148.104:8432"]];
+    audioPlayer = [AVPlayer playerWithURL:[NSURL URLWithString:@"http://funfrock.serverroom.us:8432"]];
     [audioPlayer addObserver:self forKeyPath:@"status" options:NSKeyValueObservingOptionNew context:NULL];
 
     [self checkState];
