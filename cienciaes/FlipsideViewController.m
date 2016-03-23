@@ -70,7 +70,7 @@
 }
 
 - (IBAction)madcatoPressed:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://twitter.com/madcato"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://twitter.com/veladan"]];
 }
 
 @end

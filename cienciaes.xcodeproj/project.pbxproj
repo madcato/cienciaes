@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B081C971CA2AEDA00DCDC49 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B081C961CA2AEDA00DCDC49 /* Icon-60@2x.png */; };
 		103D403716661BD300A83155 /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 103D402D16661BD300A83155 /* fondo.png */; };
 		103D403816661BD300A83155 /* fondo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 103D402E16661BD300A83155 /* fondo@2x.png */; };
 		103D403916661BD300A83155 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 103D402F16661BD300A83155 /* info.png */; };
@@ -48,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B081C961CA2AEDA00DCDC49 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
 		103D402D16661BD300A83155 /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
 		103D402E16661BD300A83155 /* fondo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fondo@2x.png"; sourceTree = "<group>"; };
 		103D402F16661BD300A83155 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 		10E1BBE4166641460084F9EA /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				0B081C961CA2AEDA00DCDC49 /* Icon-60@2x.png */,
 				10E1BBE5166641500084F9EA /* Icon-Small.png */,
 				10E1BBE6166641500084F9EA /* Icon-Small@2x.png */,
 				10E1BBE7166641500084F9EA /* Icon.png */,
@@ -248,6 +251,11 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = veladan;
+				TargetAttributes = {
+					1083779C16636175006B86C6 = {
+						DevelopmentTeam = TW65EXAM4U;
+					};
+				};
 			};
 			buildConfigurationList = 1083779716636175006B86C6 /* Build configuration list for PBXProject "cienciaes" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -277,6 +285,7 @@
 				108377BA16636175006B86C6 /* Default-568h@2x.png in Resources */,
 				108377BD16636175006B86C6 /* MainStoryboard.storyboard in Resources */,
 				103D403716661BD300A83155 /* fondo.png in Resources */,
+				0B081C971CA2AEDA00DCDC49 /* Icon-60@2x.png in Resources */,
 				103D403816661BD300A83155 /* fondo@2x.png in Resources */,
 				103D403916661BD300A83155 /* info.png in Resources */,
 				103D403A16661BD300A83155 /* info@2x.png in Resources */,
@@ -399,15 +408,18 @@
 		108377CA16636176006B86C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cienciaes/cienciaes-Prefix.pch";
 				INFOPLIST_FILE = "cienciaes/cienciaes-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALID_ARCHS = "armv7 armv7s";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -415,17 +427,19 @@
 		108377CB16636176006B86C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daniel Vela";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daniel Vela (TW65EXAM4U)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cienciaes/cienciaes-Prefix.pch";
 				INFOPLIST_FILE = "cienciaes/cienciaes-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CA5533B6-3987-433A-8B08-E1FCEDE0200E";
-				VALID_ARCHS = "armv7 armv7s";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9cf8103e-4548-4458-9c64-7288e0f12c10";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
