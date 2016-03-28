@@ -21,12 +21,8 @@
     // Override point for customization after application launch.
     MainViewController *controller = (MainViewController *)self.window.rootViewController;
     controller.managedObjectContext = self.managedObjectContext;
-    
-    
-    
-        // Registers this class as the delegate of the audio session.
-    [[AVAudioSession sharedInstance] setDelegate: self];
-        // Allow the app sound to continue to play when the screen is locked.
+
+    // Allow the app sound to continue to play when the screen is locked.
     [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
     
     
