@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#include "AppData.h"
+
+#define APPDATA ((AppDelegate*)[UIApplication sharedApplication].delegate).appData
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (nonatomic, strong) AppData *appData;
 
 @property (strong, nonatomic) UIWindow *window;
 

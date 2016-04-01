@@ -14,4 +14,10 @@
     #import <CoreData/CoreData.h>
     #import <AVFoundation/AVFoundation.h>
     #import <MediaPlayer/MediaPlayer.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import <CoreLocation/CoreLocation.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+    #import "OSLibrary/OSLibrary.h"
 #endif
+

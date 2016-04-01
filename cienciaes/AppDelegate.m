@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
 #import "MainViewController.h"
+#import "AppData.h"
 
 @implementation AppDelegate
 
@@ -24,8 +24,7 @@
 
     // Allow the app sound to continue to play when the screen is locked.
     [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
-    
-    
+
     return YES;
 }
 							
@@ -152,6 +151,13 @@
 - (NSURL *)applicationDocumentsDirectory
 {
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+}
+
+- (AppData*)appData {
+    if (_appData == nil) {
+        _appData = [AppData new];
+    }
+    return _appData;
 }
 
 @end

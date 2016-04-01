@@ -1,0 +1,6 @@
+[submodule "OSLibrary"]
+	path = OSLibrary
+	url = git@github.com:madcato/OSLibrary.git
+[submodule "SDWebImage"]
+	path = SDWebImage
+	url = git@github.com:madcato/SDWebImage.git
