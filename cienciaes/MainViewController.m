@@ -26,6 +26,13 @@
     
     [[UISlider appearance] setMinimumTrackTintColor:[UIColor blackColor]];
     [[UISlider appearance] setMaximumTrackTintColor:[UIColor darkGrayColor]];
+    
+    [self becomeFirstResponder];
+    [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
+}
+
+- (BOOL)canBecomeFirstResponder {
+    return YES;
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
@@ -126,6 +133,21 @@
 {
     [_playButton setImage:[UIImage imageNamed:@"pause"] forState:UIControlStateNormal];
     [_playButton setImage:[UIImage imageNamed:@"pause_high"] forState:UIControlStateHighlighted];
+}
+
+- (void)remoteControlReceivedWithEvent:(UIEvent *)event {
+    UIEventSubtype rc = event.subtype;
+    if (rc == UIEventSubtypeRemoteControlTogglePlayPause) {
+        if([audioPlayer rate] > 0) {
+            [audioPlayer pause];
+        } else {
+            [audioPlayer play];
+        }
+    } else if (rc == UIEventSubtypeRemoteControlPlay) {
+        [audioPlayer play];
+    } else if (rc == UIEventSubtypeRemoteControlPause) {
+        [audioPlayer pause];
+    }
 }
 
 @end

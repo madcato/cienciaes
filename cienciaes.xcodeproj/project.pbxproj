@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B081C971CA2AEDA00DCDC49 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B081C961CA2AEDA00DCDC49 /* Icon-60@2x.png */; };
+		0B3ED6A71CAEDAA400D349A8 /* CELockScreenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3ED6A61CAEDAA400D349A8 /* CELockScreenHelper.m */; };
 		0B4DAC731CAB369000036E8D /* currentSongAPITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DAC711CAB369000036E8D /* currentSongAPITest.m */; };
 		0B4DAC741CAB369000036E8D /* nextSongAPITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DAC721CAB369000036E8D /* nextSongAPITest.m */; };
 		0B4DAC821CAE7B7800036E8D /* Status+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DAC811CAE7B7800036E8D /* Status+JSON.m */; };
@@ -147,6 +148,8 @@
 
 /* Begin PBXFileReference section */
 		0B081C961CA2AEDA00DCDC49 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		0B3ED6A51CAEDAA400D349A8 /* CELockScreenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CELockScreenHelper.h; sourceTree = "<group>"; };
+		0B3ED6A61CAEDAA400D349A8 /* CELockScreenHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CELockScreenHelper.m; sourceTree = "<group>"; };
 		0B4DAC671CAB366400036E8D /* cienciaesAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cienciaesAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4DAC6B1CAB366400036E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B4DAC711CAB369000036E8D /* currentSongAPITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = currentSongAPITest.m; sourceTree = "<group>"; };
@@ -266,6 +269,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B3ED69E1CAED08900D349A8 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0B3ED6A51CAEDAA400D349A8 /* CELockScreenHelper.h */,
+				0B3ED6A61CAEDAA400D349A8 /* CELockScreenHelper.m */,
+			);
+			name = helpers;
+			sourceTree = "<group>";
+		};
 		0B4DAC681CAB366400036E8D /* cienciaesAPITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +293,7 @@
 		0BA9A4681CAAF2F400A9C92B /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				0B3ED69E1CAED08900D349A8 /* helpers */,
 				0BA9A4A01CAAFEAD00A9C92B /* webInterface */,
 				0BA9A4691CAAF31400A9C92B /* entities */,
 				108377B216636175006B86C6 /* AppDelegate.h */,
@@ -670,6 +683,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BA9A46F1CAAF34300A9C92B /* Song.m in Sources */,
+				0B3ED6A71CAEDAA400D349A8 /* CELockScreenHelper.m in Sources */,
 				0BA9A4BD1CAB1DBC00A9C92B /* Song+JSON.m in Sources */,
 				0BA9A46C1CAAF32D00A9C92B /* Entity.m in Sources */,
 				0BA9A4B11CAB00E100A9C92B /* CEStatusEndpoint.m in Sources */,
