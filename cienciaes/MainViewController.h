@@ -18,6 +18,9 @@
 -(void)checkState;
 -(void)appBecomeActive;
 
+@property (weak, nonatomic) IBOutlet UIView *currentSongView;
+@property (weak, nonatomic) IBOutlet UIView *nextSongView;
+
 @property (retain, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 @property (retain, nonatomic) IBOutlet UIButton *playButton;

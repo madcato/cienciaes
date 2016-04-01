@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0B081C971CA2AEDA00DCDC49 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B081C961CA2AEDA00DCDC49 /* Icon-60@2x.png */; };
 		0B3ED6A71CAEDAA400D349A8 /* CELockScreenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3ED6A61CAEDAA400D349A8 /* CELockScreenHelper.m */; };
+		0B3ED6AA1CAEE05700D349A8 /* CESongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3ED6A91CAEE05700D349A8 /* CESongViewController.m */; };
 		0B4DAC731CAB369000036E8D /* currentSongAPITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DAC711CAB369000036E8D /* currentSongAPITest.m */; };
 		0B4DAC741CAB369000036E8D /* nextSongAPITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DAC721CAB369000036E8D /* nextSongAPITest.m */; };
 		0B4DAC821CAE7B7800036E8D /* Status+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4DAC811CAE7B7800036E8D /* Status+JSON.m */; };
@@ -150,6 +151,8 @@
 		0B081C961CA2AEDA00DCDC49 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
 		0B3ED6A51CAEDAA400D349A8 /* CELockScreenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CELockScreenHelper.h; sourceTree = "<group>"; };
 		0B3ED6A61CAEDAA400D349A8 /* CELockScreenHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CELockScreenHelper.m; sourceTree = "<group>"; };
+		0B3ED6A81CAEE05700D349A8 /* CESongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CESongViewController.h; sourceTree = "<group>"; };
+		0B3ED6A91CAEE05700D349A8 /* CESongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CESongViewController.m; sourceTree = "<group>"; };
 		0B4DAC671CAB366400036E8D /* cienciaesAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cienciaesAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4DAC6B1CAB366400036E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B4DAC711CAB369000036E8D /* currentSongAPITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = currentSongAPITest.m; sourceTree = "<group>"; };
@@ -302,6 +305,8 @@
 				108377C216636176006B86C6 /* MainViewController.m */,
 				108377C416636176006B86C6 /* FlipsideViewController.h */,
 				108377C516636176006B86C6 /* FlipsideViewController.m */,
+				0B3ED6A81CAEE05700D349A8 /* CESongViewController.h */,
+				0B3ED6A91CAEE05700D349A8 /* CESongViewController.m */,
 			);
 			name = classes;
 			sourceTree = "<group>";
@@ -689,6 +694,7 @@
 				0BA9A4B11CAB00E100A9C92B /* CEStatusEndpoint.m in Sources */,
 				0BA9A4721CAAF47000A9C92B /* Podcast.m in Sources */,
 				108377B016636175006B86C6 /* main.m in Sources */,
+				0B3ED6AA1CAEE05700D349A8 /* CESongViewController.m in Sources */,
 				108377B416636175006B86C6 /* AppDelegate.m in Sources */,
 				0BA9A4B41CAB00F500A9C92B /* CELiveEndpoint.m in Sources */,
 				108377C016636176006B86C6 /* cienciaes.xcdatamodeld in Sources */,
