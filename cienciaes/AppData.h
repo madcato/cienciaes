@@ -18,4 +18,6 @@
 @property (nonatomic, strong) Status* status;
 @property (nonatomic, strong) Status* live;
 
+@property (nonatomic, strong) UIImage* artwork;
+
 @end

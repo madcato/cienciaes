@@ -12,9 +12,9 @@
 
 + (void)setLockScreenInfo:(NSString*)albumTitle
                     title:(NSString*)title
-                   artist:(NSString*)artist
-                  artwork:(UIImage*)artwork
-                 duration:(NSNumber*)duration
-                 playback:(NSNumber*)playback;
+                   artist:(NSString*)artist;
++ (void)setLockScreenProgressInfo:(NSNumber*)duration
+                         playback:(NSNumber*)playback;
++ (void)setLockScreenArtwork:(UIImage*)artwork;
 
 @end

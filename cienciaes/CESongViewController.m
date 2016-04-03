@@ -10,6 +10,7 @@
 #import "AppData.h"
 #import "CEWebInterface.h"
 #import "SDWebImage/UIImageView+WebCache.h"
+#import "AppDelegate.h"
 
 @interface CESongViewController ()
 
@@ -65,6 +66,8 @@ dispatch_async(dispatch_get_main_queue() , ^{
         [self.artwork sd_setImageWithURL:[NSURL URLWithString:song.cover]
                                completed:
          ^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+             song.artwork = image;
+             APPDATA.artwork = image;
              self.artwork.image = image;
              self.artwork.alpha = 0.0;
              [UIView animateWithDuration:0.8 animations:^{

@@ -16,5 +16,6 @@
 @property (nonatomic, strong) Podcast* podcast;
 @property (nonatomic, strong) NSString* cover;
 @property (nonatomic, strong) NSString* title;
+@property (nonatomic, strong) UIImage* artwork;
 
 @end

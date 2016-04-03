@@ -15,7 +15,7 @@
     data = [data dictionaryByReplacingNullsWithStrings];
     self = [Song new];
     if (self) {
-        self.duration = data[@"duration"];
+        self.duration = [data[@"duration"] unsignedIntegerValue];
         self.type = data[@"type"];
         NSDictionary* podcast = [data[@"podcast"] dictionaryByReplacingNullsWithStrings];
         self.podcast.website = podcast[@"website"];

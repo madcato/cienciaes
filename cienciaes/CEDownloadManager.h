@@ -11,5 +11,6 @@
 @interface CEDownloadManager : NSObject
 
 - (void)start;
+- (void)downloadStatusInfo;
 
 @end

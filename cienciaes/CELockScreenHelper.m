@@ -12,19 +12,30 @@
 
 + (void)setLockScreenInfo:(NSString*)albumTitle
                     title:(NSString*)title
-                   artist:(NSString*)artist
-                  artwork:(UIImage*)artwork
-                 duration:(NSNumber*)duration
-                 playback:(NSNumber*)playback {
+                   artist:(NSString*)artist {
     MPNowPlayingInfoCenter* center = [MPNowPlayingInfoCenter defaultCenter];
-    center.nowPlayingInfo = @{
-      MPMediaItemPropertyAlbumTitle: albumTitle,
-      MPMediaItemPropertyArtist: artist,
-      MPMediaItemPropertyArtwork: [[MPMediaItemArtwork alloc] initWithImage:artwork],
-      MPMediaItemPropertyPlaybackDuration: duration,
-      MPMediaItemPropertyTitle: title,
-      MPNowPlayingInfoPropertyElapsedPlaybackTime: playback
-      };
+    NSMutableDictionary* dictionary = [NSMutableDictionary dictionaryWithDictionary:center.nowPlayingInfo];
+    dictionary[MPMediaItemPropertyAlbumTitle] = albumTitle;
+    dictionary[MPMediaItemPropertyArtist] = artist;
+    dictionary[MPMediaItemPropertyTitle] = title;
+    center.nowPlayingInfo = dictionary;
+}
+
++ (void)setLockScreenProgressInfo:(NSNumber*)duration
+                         playback:(NSNumber*)playback {
+    MPNowPlayingInfoCenter* center = [MPNowPlayingInfoCenter defaultCenter];
+    NSMutableDictionary* dictionary = [NSMutableDictionary dictionaryWithDictionary:center.nowPlayingInfo];
+    dictionary[MPNowPlayingInfoPropertyElapsedPlaybackTime] = playback;
+    dictionary[MPMediaItemPropertyPlaybackDuration] = duration;
+    dictionary[MPNowPlayingInfoPropertyPlaybackRate] = [NSNumber numberWithInt:1];
+    center.nowPlayingInfo = dictionary;
+}
+
++ (void)setLockScreenArtwork:(UIImage*)artwork {
+    MPNowPlayingInfoCenter* center = [MPNowPlayingInfoCenter defaultCenter];
+    NSMutableDictionary* dictionary = [NSMutableDictionary dictionaryWithDictionary:center.nowPlayingInfo];
+    dictionary[MPMediaItemPropertyArtwork] = [[MPMediaItemArtwork alloc] initWithImage:artwork];
+    center.nowPlayingInfo = dictionary;
 }
 
 @end

@@ -12,6 +12,7 @@
 #import "CENextSongEndpoint.h"
 #import "CEWebObjectFactory.h"
 #import "AppDelegate.h"
+#import "CELockScreenHelper.h"
 
 @interface CEDownloadManager ()
 
@@ -39,6 +40,16 @@
               forKeyPath:NSStringFromSelector(@selector(live))
                  options:NSKeyValueObservingOptionOld
                  context:nil];
+    
+    [APPDATA addObserver:self
+              forKeyPath:NSStringFromSelector(@selector(current))
+                 options:NSKeyValueObservingOptionOld
+                 context:nil];
+    
+    [APPDATA addObserver:self
+              forKeyPath:NSStringFromSelector(@selector(artwork))
+                 options:NSKeyValueObservingOptionOld
+                 context:nil];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath
@@ -54,6 +65,10 @@
             dispatch_async(dispatch_get_main_queue(), ^{
                 [self performSelector:@selector(donwloadSongInfo) withObject:nil afterDelay:delay];
             });
+            NSNumber* currentTime = [NSNumber numberWithDouble:(double)APPDATA.status.currentTime];
+            NSNumber* totalTime = [NSNumber numberWithDouble:(double)APPDATA.status.totalTime];
+            [CELockScreenHelper setLockScreenProgressInfo:totalTime
+                                playback:currentTime];
         } else {
             [self downloadLiveInfo];
         }
@@ -61,6 +76,18 @@
     
     if ([keyPath isEqualToString:@"live"]) {
         
+    }
+    
+    if ([keyPath isEqualToString:@"current"]) {
+        [CELockScreenHelper setLockScreenInfo:APPDATA.current.podcast.name
+                                        title:APPDATA.current.title
+                                       artist:@"cienciaes"];
+    }
+    
+    if ([keyPath isEqualToString:@"artwork"]) {
+        if (APPDATA.current.artwork != nil) {
+            [CELockScreenHelper setLockScreenArtwork:APPDATA.current.artwork];
+        }
     }
 }
 

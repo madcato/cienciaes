@@ -15,8 +15,8 @@
     data = [data dictionaryByReplacingNullsWithStrings];
     self = [Status new];
     if (self) {
-        self.totalTime = data[@"total_time"];
-        self.currentTime = data[@"current_time"];
+        self.totalTime = [data[@"total_time"] unsignedIntegerValue];
+        self.currentTime = [data[@"current_time"] unsignedIntegerValue];
         self.live = [data[@"live"] boolValue];
         self.state = data[@"state"];
         self.song = data[@"song"];
