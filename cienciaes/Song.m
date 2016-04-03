@@ -17,4 +17,33 @@
     return _podcast;
 }
 
+- (BOOL)isEqual:(Song*)object {
+    if (self == object) {
+        return YES;
+    }
+    
+    if (self.duration != object.duration) {
+        return NO;
+    }
+    
+    if (![self.type isEqualToString:object.type]) {
+        return NO;
+    }
+    
+    if (![self.podcast isEqual:object.podcast]) {
+        return NO;
+    }
+    
+    if (![self.cover isEqualToString:object.cover]) {
+        return NO;
+    }
+    
+    if (![self.type isEqualToString:object.type]) {
+        return NO;
+    }
+    
+    return YES;
+}
+
+
 @end

@@ -7,15 +7,17 @@
 //
 
 #import "Status+JSON.h"
+#import "NSDictionary+NULLAdditions.h"
 
 @implementation Status (JSON)
 
 - (instancetype)initWithDictionary:(NSDictionary*)data {
+    data = [data dictionaryByReplacingNullsWithStrings];
     self = [Status new];
     if (self) {
         self.totalTime = data[@"total_time"];
         self.currentTime = data[@"current_time"];
-        self.live = data[@"live"];
+        self.live = [data[@"live"] boolValue];
         self.state = data[@"state"];
         self.song = data[@"song"];
     }

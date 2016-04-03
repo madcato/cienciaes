@@ -98,26 +98,26 @@
         <!--Song View Controller-->
         <scene sceneID="bis-CN-HsT">
             <objects>
-                <viewController id="7oM-j9-jaF" customClass="CESongViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SongViewController" id="7oM-j9-jaF" customClass="CESongViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3c0-nJ-Yk8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="IrC-1f-Adf">
-                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="IrC-1f-Adf">
+                                <rect key="frame" x="20" y="4" width="47" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo cancion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ztD-Xr-xj9">
-                                <rect key="frame" x="63" y="0.0" width="237" height="21"/>
+                                <rect key="frame" x="75" y="4" width="228" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="1" green="0.94089439659999996" blue="0.81659482760000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Autor - album" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Y1I-Nt-baf">
-                                <rect key="frame" x="63" y="34" width="237" height="21"/>
+                                <rect key="frame" x="75" y="30" width="228" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="1" green="0.94089439659999996" blue="0.81659482760000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>

@@ -7,18 +7,21 @@
 //
 
 #import "Song+JSON.h"
+#import "NSDictionary+NULLAdditions.h"
 
 @implementation Song (JSON)
 
 - (instancetype)initWithDictionary:(NSDictionary*)data {
+    data = [data dictionaryByReplacingNullsWithStrings];
     self = [Song new];
     if (self) {
         self.duration = data[@"duration"];
         self.type = data[@"type"];
-        self.podcast.website = data[@"podcast"][@"website"];
-        self.podcast.twitter = data[@"podcast"][@"twitter"];
-        self.podcast.name = data[@"podcast"][@"name"];
-        self.podcast.podcastDescription = data[@"podcast"][@"description"];
+        NSDictionary* podcast = [data[@"podcast"] dictionaryByReplacingNullsWithStrings];
+        self.podcast.website = podcast[@"website"];
+        self.podcast.twitter = podcast[@"twitter"];
+        self.podcast.name = podcast[@"name"];
+        self.podcast.podcastDescription = podcast[@"description"];
         self.cover = data[@"cover"];
         self.title = data[@"title"];
     }

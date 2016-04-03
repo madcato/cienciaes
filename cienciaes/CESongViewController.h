@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class Song;
+
 @interface CESongViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIImageView *artwork;
-
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *subtitleLabel;
+
+@property (strong, nonatomic) Song* song;
 
 @end

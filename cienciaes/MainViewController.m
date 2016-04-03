@@ -7,13 +7,43 @@
 //
 
 #import "MainViewController.h"
-
+#import "CESongViewController.h"
+#import "AppDelegate.h"
 
 @interface MainViewController ()
+
+@property (nonatomic, strong) CESongViewController* currentSongController;
+@property (nonatomic, strong) CESongViewController* nextSongController;
 
 @end
 
 @implementation MainViewController
+
+- (CESongViewController*)currentSongController {
+    if (_currentSongController == nil) {
+        _currentSongController = (CESongViewController*)[self.storyboard 
+            instantiateViewControllerWithIdentifier:@"SongViewController"];
+        _currentSongController.song = APPDATA.current;
+        [APPDATA addObserver:_currentSongController
+                  forKeyPath:NSStringFromSelector(@selector(current))
+                     options:NSKeyValueObservingOptionOld
+                     context:nil];
+    }
+    return _currentSongController;
+}
+
+- (CESongViewController*)nextSongController {
+    if (_nextSongController == nil) {
+        _nextSongController = (CESongViewController*)[self.storyboard
+            instantiateViewControllerWithIdentifier:@"SongViewController"];
+        _nextSongController.song = APPDATA.next;
+        [APPDATA addObserver:_nextSongController
+                  forKeyPath:NSStringFromSelector(@selector(next))
+                     options:NSKeyValueObservingOptionOld
+                     context:nil];
+    }
+    return _nextSongController;
+}
 
 - (void)viewDidLoad
 {
@@ -29,6 +59,15 @@
     
     [self becomeFirstResponder];
     [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
+    
+    [self addController:self.currentSongController toView:self.currentSongView];
+    [self addController:self.nextSongController toView:self.nextSongView];
+}
+
+- (void)addController:(UIViewController*)controller toView:(UIView*)view {
+    [view addSubview:controller.view];
+    [self addChildViewController:controller];
+    [controller didMoveToParentViewController:self];
 }
 
 - (BOOL)canBecomeFirstResponder {
@@ -119,7 +158,6 @@
         // Start
         [audioPlayer play];
         [self setPauseButtonImage];
-
     }
 }
 

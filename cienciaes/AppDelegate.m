@@ -9,6 +9,16 @@
 #import "AppDelegate.h"
 #import "MainViewController.h"
 #import "AppData.h"
+#import "OSLibrary/OSTopBarActivityIndicatorManager.h"
+#import "OSLibrary/OSTopBarActivityIndicator.h"
+#import "CEDownloadManager.h"
+
+@interface AppDelegate ()
+
+@property (nonatomic, strong) OSTopBarActivityIndicatorManager* activityManager;
+@property (nonatomic, strong) CEDownloadManager* downloadManager;
+
+@end
 
 @implementation AppDelegate
 
@@ -25,6 +35,13 @@
     // Allow the app sound to continue to play when the screen is locked.
     [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
 
+    // Set OStopBarNetActivity
+    OSTopBarActivityIndicator* activity = [OSTopBarActivityIndicator new];
+    self.activityManager = [[OSTopBarActivityIndicatorManager alloc] initWithActivityIndicator:activity];
+    
+    self.downloadManager = [[CEDownloadManager alloc] init];
+    [self.downloadManager start];
+    
     return YES;
 }
 							

@@ -9,6 +9,7 @@
 #import "CENextSongEndpoint.h"
 #import "AppDelegate.h"
 #import "Song+JSON.h"
+#import "CEWebInterface.h"
 
 @implementation CENextSongEndpoint
 
@@ -18,12 +19,12 @@
         if ([result isKindOfClass:[NSDictionary class]]) {
             NSDictionary* data = (NSDictionary*)result;
             Song* song = [[Song alloc] initWithDictionary:data];
+            song.cover = [CEWebInterface imageURLForCover:song.cover];
             APPDATA.next = song;
-            handler(result,error);
         } else {
-            NSLog(@"ERROR: api/current/ doesn't return a JSON dictionary");
+            NSLog(@"ERROR: api/next/ doesn't return a JSON dictionary");
         }
-
+        handler(result,error);
     }];
 }
 

@@ -19,11 +19,10 @@
             NSDictionary* data = (NSDictionary*)result;
             Status* status = [[Status alloc] initWithDictionary:data];
             APPDATA.status = status;
-            handler(result,error);
         } else {
             NSLog(@"ERROR: api/status/ doesn't return a JSON dictionary");
         }
-        
+        handler(result,error);
     }];
 
 }

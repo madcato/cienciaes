@@ -6,6 +6,11 @@
 //  Copyright © 2016 veladan. All rights reserved.
 //
 
+#import "OSLibrary/OSWebInterface.h"
+
 @interface CEWebInterface : OSWebInterface
+
++ (NSString*)imageURLForCover:(NSString*)cover;
++ (NSString*)imageURLForLiveCover:(NSString*)cover;
 
 @end
